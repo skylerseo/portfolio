@@ -1,22 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Suyeon's Portfolio</title>
-    <meta name="description" content="Portfolio for web developer Suyeon" />
-    <meta name="author" content="Suyeon" />
-    <link rel="icon" type="image/png" href="imgs/favicon.png" />
-    <script
-      src="https://kit.fontawesome.com/a6bfbc8c01.js"
-      crossorigin="anonymous"
-    ></script>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <script src="main.js" defer></script>
-  </head>
-  <body></body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Suyeon's Portfolio</title>
+  <meta name="description" content="Portfolio for web developer Suyeon" />
+  <meta name="author" content="Suyeon Seo" />
+  <link rel="icon" type="image/png" href="imgs/suyeon-logo.png" />
+  <script src="https://kit.fontawesome.com/a6bfbc8c01.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="main.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <div class="header-logo">
+      <button type="button" class="header-logo-item">
+        <img src="./imgs/suyeon-logo.png" alt="Suyeon's logo. Go to first page.">
+      </button>
+    </div>
+    <div class="header-btns">
+      <button type="button" class="header-btns-item">
+        About
+      </button>
+      <button type="button" class="header-btns-item">
+        Skills
+      </button>
+      <button type="button" class="header-btns-item">
+        Portfolio
+      </button>
+      <!-- github -->
+      <button type="button" class="header-btns-item">
+        <img src="./imgs/github-logo.png" alt="github">
+      </button>
+      <!-- linkedin -->
+      <button type="button" class="header-btns-item">
+        <img src="./imgs/linkedIn-logo.png" alt="linkedin">
+      </button>
+      <!-- email -->
+      <button type="button" class="header-btns-item">
+        <img src="./imgs/gmail-logo-circle.png" alt="email">
+      </button>
+      <!-- choose language -->
+      <button type="button" class="header-btns-item">
+        <img src="./imgs/language-logo.png" alt="choose language">
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- main profile page -->
+    <section class="profile-page">
+      <img src="./imgs/profile-image.jpg" alt="Suyeon Seo">
+      <h1>Suyeon Seo</h1>
+      <p>Front End Developer, based in Seoul.</p>
+    </section>
+
+    <!-- about me -->
+    <section class="about-page">
+      <div class="about-page-container">
+        <h1>About Me</h1>
+        <p>
+          Hello~ I'm Suyeon, You can call me Suyeon or Skyler, either way.
+        </p>
+        <p>
+          I’m Front End Developer who focuses on web
+          accessibility, writing clean, poetic codes.
+        </p>
+        <p>
+          Also I enjoy turning complex problems into simple, beautiful and intuitive designs.
+        </p>
+      </div>
+
+    </section>
+
+    <!-- skills -->
+    <section class="skill-page">
+      <div class="skill-page-container">
+        <h1>Skills</h1>
+        <img src="./imgs/html-css-js-logo.png" alt="html, css, javascript">
+      </div>
+
+    </section>
+
+    <!-- projects -->
+    <section class="project-page">
+      <div class="project-page-container">
+        <h1>Portfolio</h1>
+        <div class="project-page-container-item">
+          <article></article>
+          <article></article>
+          <article></article>
+        </div>
+
+      </div>
+
+    </section>
+  </main>
+
+  <footer>
+    <strong>ⓒ 2020. Suyeon Seo. All rights reserved.</strong>
+  </footer>
+</body>
+
 </html>
