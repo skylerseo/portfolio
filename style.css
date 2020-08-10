@@ -1,6 +1,7 @@
 :root {
   --big-font-size: 40px;
   --margin-bottom: 0 0 14px 0;
+  --color-light-gray: #F1F1F1;
 }
 
 
@@ -29,7 +30,7 @@ header {
   display: flex;
   justify-content: space-between;
   margin: 20px 0 30px;
-  background-color: #F1F1F1;
+  background-color: var(--color-light-gray);
 }
 
 .header-logo {
@@ -72,15 +73,15 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #F1F1F1;
+  background-color: var(--color-light-gray);
   padding-top: 10px;
   margin: var(--margin-bottom);
 }
 
 .profile-page img {
   border-radius: 50%;
-  width: 300px;
-  height: 300px;
+  width: 400px;
+  height: 400px;
   margin: var(--margin-bottom);
 }
 
@@ -96,7 +97,7 @@ header {
 
 /* about me */
 .about-page {
-  background-color: #F1F1F1;
+  background-color: var(--color-light-gray);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -113,7 +114,7 @@ header {
 
 /* skills */
 .skill-page {
-  background-color: #F1F1F1;
+  background-color: var(--color-light-gray);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -134,7 +135,7 @@ header {
 
 /* projects */
 .project-page {
-  background-color: #F1F1F1;
+  background-color: var(--color-light-gray);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -168,7 +169,7 @@ footer {
   display: flex;
   justify-content: center;
   margin: var(--margin-bottom);
-  background-color: #F1F1F1;
+  background-color: var(--color-light-gray);
 }
 
 footer strong {
