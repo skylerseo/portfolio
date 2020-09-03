@@ -10,99 +10,75 @@
   <link rel="icon" type="image/png" href="imgs/suyeon-logo.png" />
   <script src="https://kit.fontawesome.com/a6bfbc8c01.js" crossorigin="anonymous"></script>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="grid.min.css">
   <link rel="stylesheet" href="style.css" />
   <script src="main.js" defer></script>
 </head>
 
 <body>
-  <header>
-    <div class="header-logo">
-      <button type="button" class="header-logo-item">
-        <img src="./imgs/suyeon-logo.png" alt="Suyeon's logo. Go to first page.">
-      </button>
+
+  <!-- Nav bar -->
+  <nav id="navbar">
+    <div class="navbar__logo">
+      <img src="./imgs/suyeon-logo.png" alt="Skyler's logo image">
+      <a href="#">Skyler Seo</a>
     </div>
-    <div class="header-btns">
-      <button type="button" class="header-btns-item">
-        About
-      </button>
-      <button type="button" class="header-btns-item">
-        Skills
-      </button>
-      <button type="button" class="header-btns-item">
-        Portfolio
-      </button>
-      <!-- github -->
-      <button type="button" class="header-btns-item">
-        <img src="./imgs/github-logo.png" alt="github">
-      </button>
-      <!-- linkedin -->
-      <button type="button" class="header-btns-item">
-        <img src="./imgs/linkedIn-logo.png" alt="linkedin">
-      </button>
-      <!-- email -->
-      <button type="button" class="header-btns-item">
-        <img src="./imgs/gmail-logo-circle.png" alt="email">
-      </button>
-      <!-- choose language -->
-      <button type="button" class="header-btns-item">
-        <img src="./imgs/language-logo.png" alt="choose language">
-      </button>
+    <ul class="navbar__menu">
+      <li class="navbar__menu_item">Home</li>
+      <li class="navbar__menu_item">About</li>
+      <li class="navbar__menu_item">Skills</li>
+      <li class="navbar__menu_item">Work</li>
+      <li class="navbar__menu_item">Contact</li>
+      <li class="navbar__menu_item">Language</li>
+    </ul>
+    <ul class="navbar__icons">
+      <li><i class="fab fa-github"></i></li>
+      <li><i class="fab fa-linkedin-in"></i></li>
+    </ul>
+  </nav>
+
+  <!-- Home -->
+  <section id="home">
+    <img src="./imgs/profile-image.jpeg" alt="Skyler's profile image" class="home__avatar">
+    <h1 class="home__title">Hello~<br> I'm Skyler Seo</h1>
+    <h2 class="home__description">I'm sensuous Front End Developer, who focuses on web accessibility, writing clean,
+      poetic codes.
+    </h2>
+    <div class="home__location">
+      <i class="fas fa-map-marker-alt"></i>
+      <p>Seoul, South Korea</p>
     </div>
-  </header>
+    <button type="button" class="home__contact">Contact Me</button>
+  </section>
 
-  <main>
-    <!-- main profile page -->
-    <section class="profile-page">
-      <img src="./imgs/profile-image.jpg" alt="Suyeon Seo">
-      <h1>Suyeon Seo</h1>
-      <p>Front End Developer, based in Seoul.</p>
-    </section>
+  <!-- About -->
+  <section id="about">
+    <h1>About Me</h1>
+    <p>Hello~ I'm Skyler, You can call me Skyler or Suyeon, either way.</p>
+    <img src="./imgs/skyler-pic2.jpeg" alt="Skyler's Image" class="about__avatar">
+    <p>I’m sensuous Front End Developer who focuses on web accessibility, writing clean, poetic codes.
+      <br>
+      Also I enjoy turning complex problems into simple, beautiful and intuitive designs.</p>
+  </section>
 
-    <!-- about me -->
-    <section class="about-page">
-      <div class="about-page-container">
-        <h1>About Me</h1>
-        <p>
-          Hello~ I'm Suyeon, You can call me Suyeon or Skyler, either way.
-        </p>
-        <p>
-          I’m Front End Developer who focuses on web
-          accessibility, writing clean, poetic codes.
-        </p>
-        <p>
-          Also I enjoy turning complex problems into simple, beautiful and intuitive designs.
-        </p>
-      </div>
+  <!-- Skills -->
+  <section id="skills">
 
-    </section>
+  </section>
 
-    <!-- skills -->
-    <section class="skill-page">
-      <div class="skill-page-container">
-        <h1>Skills</h1>
-        <img src="./imgs/html-css-js-logo.png" alt="html, css, javascript">
-      </div>
+  <!-- Work -->
+  <section id="work">
 
-    </section>
+  </section>
 
-    <!-- projects -->
-    <section class="project-page">
-      <div class="project-page-container">
-        <h1>Portfolio</h1>
-        <div class="project-page-container-item">
-          <article></article>
-          <article></article>
-          <article></article>
-        </div>
+  <!-- Contact -->
+  <section id="contact">
 
-      </div>
+  </section>
 
-    </section>
-  </main>
-
-  <footer>
+  <!-- <footer>
     <strong>ⓒ 2020. Suyeon Seo. All rights reserved.</strong>
-  </footer>
+  </footer> -->
 </body>
 
 </html>
