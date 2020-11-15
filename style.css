@@ -275,7 +275,7 @@ button {
 
 .skillset {
   display: flex;
-  background-color: var(--color-light-grey);
+  background-color: var(--color-green);
   color: var(--color-light-white);
   margin: 20px 0;
 }
