@@ -18,7 +18,7 @@
   <!-- Navbar -->
   <nav id="navbar">
     <div class="navbar__logo">
-      <i class="fas fa-cloud-moon"></i>
+      <!-- <i class="fas fa-cloud-moon"></i> -->
       <a href="#">Suyeon Seo</a>
     </div>
     <ul class="navbar__menu">
@@ -71,7 +71,7 @@
         </div>
         <h2 class="major__title">프론트 엔드</h2>
         <div class="major__description">
-          HTML, CSS, JavaScript(ES6),<br />TypeScript, React
+          HTML, CSS, JavaScript(ES6),<br />React, TypeScript 
         </div>
       </div>
       <div class="major">
@@ -96,10 +96,19 @@
     </div>
     <div class="about__schools" data-aos="fade-right">
       <div class="school">
+        <img src="./imgs/schools/codegreen_logo.svg" alt="코드그린 로고" class="school__logo" />
+        <div class="school__description">
+          <p class="school__name">
+            코드그린 프론트엔드 웹개발자 - (주)리더스오브그린소사이어티
+          </p>
+          <p class="school__period">2020.11 ~ 2021.02</p>
+        </div>
+      </div>
+      <div class="school">
         <img src="./imgs/schools/thejoeun.png" alt="더조은 IT아카데미 로고" class="school__logo" />
         <div class="school__description">
           <p class="school__name">
-            더조은 IT아카데미 - JAVA 기반 하이브리드 앱개발
+            더조은 IT아카데미 - Java 기반 하이브리드 앱개발 과정 이수
           </p>
           <p class="school__period">2019.06 ~ 2019.11</p>
         </div>
@@ -108,7 +117,7 @@
         <img src="./imgs/schools/smec-edit.png" alt="연세대학교 미래교육원 SMEC 로고" class="school__logo" />
         <div class="school__description">
           <p class="school__name">
-            연세대학교 미래교육원 SMEC - 게임그래픽 학과
+            연세대학교 미래교육원 SMEC - 게임그래픽 학과 졸업
           </p>
           <p class="school__period">2013.03 ~ 2017.02</p>
         </div>
@@ -122,15 +131,7 @@
       <h1>Skills</h1>
       <h2>기술 & 특기</h2>
       <p>
-        프론트 겸 백엔드로 팀프로젝트에 참여해본 적이 있어 웹사이트가
-        만들어지는 전체적인 흐름을 전부 체험해볼 수 있었던 게 좋은 경험이
-        되었습니다.<br />그 결과 프론트엔드로 개발자의 길을 확실히 정할 수
-        있었고, 제게 필요한 기술들을 공부하는 것에 열정을 가지고 있습니다.<br />팀원들과
-        매일같이 따로 만나서 소통하며 작업했던 것, svn 저장소를 함께 사용해본
-        것도 귀중한 경험이 되었습니다.<br />
-        학교에서는 기획/그래픽/프로그래밍 세 과가 한 팀이 되어 게임을 만들기도 했습니다.<br />
-        학교와 학원, 각종 스터디 모임에서 다져진 끈기로, 앞으로
-        어떤 환경, 어떤 툴이든 잘 적응할 수 있는 자신이 있습니다.
+        시맨틱하게 마크업하기, 꼼꼼하게 스타일 먹이기, 집요하게 기능구현하기, 분위기메이커, 야근하기
       </p>
       <div class="skillset" data-aos="fade-up">
         <div class="skillset__left" data-aos="fade-right">
@@ -164,20 +165,20 @@
           </div>
           <div class="skill">
             <div class="skill__description">
+              <span>React</span>
+              <span>75%</span>
+            </div>
+            <div class="skill__bar">
+              <div class="skill__value" style="width: 75%"></div>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill__description">
               <span>TypeScript</span>
               <span>20%</span>
             </div>
             <div class="skill__bar">
               <div class="skill__value" style="width: 20%"></div>
-            </div>
-          </div>
-          <div class="skill">
-            <div class="skill__description">
-              <span>React</span>
-              <span>50%</span>
-            </div>
-            <div class="skill__bar">
-              <div class="skill__value" style="width: 50%"></div>
             </div>
           </div>
         </div>
@@ -216,10 +217,10 @@
       <h3>Projects</h3>
       <div class="work__categories">
         <button type="button" class="category__btn selected" data-filter="*">
-          All <span class="category__count">8</span>
+          All <span class="category__count">10</span>
         </button>
         <button type="button" class="category__btn" data-filter="front-end">
-          Front End <span class="category__count">3</span>
+          Front End <span class="category__count">5</span>
         </button>
         <button type="button" class="category__btn" data-filter="design">
           Design <span class="category__count">4</span>
@@ -229,6 +230,13 @@
         </button>
       </div>
       <div class="work__projects">
+        <a href="https://codegreen.io/" target="_blank" class="project" data-type="front-end">
+          <img src="./imgs/projects/codegreen.png" alt="코드그린 프론트 작업" class="project__img" />
+          <div class="project__description">
+            <h3>React - 반응형 웹 유지보수</h3>
+            <span>3개월간 코드그린 반응형 사이트 프론트단 유지보수 및 기능구현을 담당하였습니다.</span>
+          </div>
+        </a>
         <a href="https://github.com/skylerseo/todo-list" target="_blank" class="project" data-type="front-end">
           <img src="./imgs/projects/todolist_hotpink.jpg" alt="react To do list" class="project__img" />
           <div class="project__description">

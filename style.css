@@ -4,14 +4,14 @@
   --color-white: #fff;
   --color-light-white: #f1f1f1;
   --color-dark-white: #f3f3f3;
-  --color-purple: #68298d;
-  --color-dark-purple: #46229b;
+  --color-purple: #664691;
+  --color-dark-purple: #38275f;
   --color-dark-grey: #2e2e2e;
   --color-grey: #49494b;
   --color-light-grey: #9c9a9e;
   --color-blue: #0d4569;
-  --color-green: #c9da37;
-  --color-orange: #ff330f;
+  --color-green: #95e0bb;
+  --color-orange: #ff5781;
   --color-black: #070707;
 
   /* Font size */
@@ -153,7 +153,7 @@ button {
 
 /* Home */
 #home {
-  background: url(./imgs/home-background.jpg) center/cover no-repeat;
+  background: url(./imgs/background_img.jpg) center/cover no-repeat;
   padding: 40px;
   padding-top: 120px;
   text-align: center;
