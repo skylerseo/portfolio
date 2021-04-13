@@ -25,7 +25,7 @@
   --weight-bold: 700;
   --weight-semi-bold: 500;
   --weight-medium: 400;
-  --weight-regular: 300;
+  --weight-regular: 100;
 
   /* Size */
   --size-border-radius: 4px;
@@ -73,9 +73,12 @@ p {
   color: var(--color-white);
   background-color: #d000a0;
 }
+html {
+  font-family: 'Spoqa Han Sans Neo', 'Spoqa Han Sans JP', sans-serif;
+}
 
 body {
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: 'Spoqa Han Sans Neo', 'Spoqa Han Sans JP', sans-serif;
   margin: 0;
 }
 
