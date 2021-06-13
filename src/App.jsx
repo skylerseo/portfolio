@@ -14,7 +14,7 @@ function App() {
         <Nav />
         <Switch>
           {/* Home */}
-          <Route exact path='/' component={Home} />
+          <Route exact path='/portfolio/' component={Home} />
           {/* 잘못된 주소를 입력했을 때 */}
           <Route component={NotFound} />
         </Switch>

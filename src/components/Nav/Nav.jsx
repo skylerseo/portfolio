@@ -7,7 +7,7 @@ const NavBar = (props) => {
   return (
     <nav className='navbar'>
       <div className='navbar_wrapper'>
-        <a href='/'>
+        <a href='/portfolio/'>
           <img src={logo_image_skyler} alt='logo' />
         </a>
 
