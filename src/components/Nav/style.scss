@@ -1,0 +1,22 @@
+.navbar {
+  .navbar_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1194px;
+    height: 56px;
+    margin: 0 auto;
+    img {
+      width: auto;
+      height: 38px;
+      cursor: pointer;
+    }
+    ul {
+      display: flex;
+      li {
+        padding: 0 30px;
+        cursor: pointer;
+      }
+    }
+  }
+}
