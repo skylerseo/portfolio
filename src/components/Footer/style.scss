@@ -1,5 +1,6 @@
 .footer {
   .footer_wrapper {
+    @include typography-body-1;
     max-width: 1194px;
     height: 56px;
     margin: 0 auto;

@@ -16,6 +16,11 @@
       li {
         padding: 0 30px;
         cursor: pointer;
+        @include typography-title-subhead-3;
+        &:hover {
+          color: $brand-red;
+          transition: ease-in-out 300ms;
+        }
       }
     }
   }

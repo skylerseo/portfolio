@@ -409,9 +409,20 @@ ol {
     display: flex; }
     .navbar .navbar_wrapper ul li {
       padding: 0 30px;
-      cursor: pointer; }
+      cursor: pointer;
+      font-size: 16px;
+      line-height: 22px;
+      letter-spacing: -0.4px;
+      font-weight: 700; }
+      .navbar .navbar_wrapper ul li:hover {
+        color: #a81e2a;
+        transition: ease-in-out 300ms; }
 
 .footer .footer_wrapper {
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: -0.6px;
+  font-weight: 400;
   max-width: 1194px;
   height: 56px;
   margin: 0 auto;
@@ -426,6 +437,82 @@ ol {
     .home .home_wrapper section {
       margin-bottom: 80px; }
       .home .home_wrapper section h2 {
-        margin-bottom: 18px; }
+        font-size: 32px;
+        line-height: 44px;
+        letter-spacing: -0.6px;
+        font-weight: 700;
+        margin-bottom: 36px; }
+      .home .home_wrapper section h3 {
+        font-size: 20px;
+        line-height: 32px;
+        letter-spacing: -0.6px;
+        font-weight: 700;
+        margin-bottom: 8px; }
+      .home .home_wrapper section p {
+        font-size: 14px;
+        line-height: 22px;
+        letter-spacing: -0.6px;
+        font-weight: 400; }
+      .home .home_wrapper section.home_section h2 {
+        color: #a81e2a; }
+      .home .home_wrapper section.about h2 {
+        color: #f5bbda; }
+      .home .home_wrapper section.about .bundle {
+        margin-bottom: 36px; }
+        .home .home_wrapper section.about .bundle .work,
+        .home .home_wrapper section.about .bundle .edu {
+          display: flex;
+          align-items: center;
+          margin-bottom: 16px; }
+        .home .home_wrapper section.about .bundle img {
+          width: 64px;
+          height: 64px;
+          margin-right: 8px; }
+        .home .home_wrapper section.about .bundle p:nth-child(n + 2) {
+          font-size: 12px;
+          line-height: 18px;
+          letter-spacing: -0.6px;
+          font-weight: 400;
+          color: #aaa; }
+      .home .home_wrapper section.skills h2 {
+        color: #00b5d6; }
+      .home .home_wrapper section.skills div {
+        margin-bottom: 24px; }
+      .home .home_wrapper section.work h2 {
+        color: #fae011; }
+      .home .home_wrapper section.work .bundle {
+        display: flex;
+        align-items: center;
+        margin-bottom: 24px; }
+        .home .home_wrapper section.work .bundle img {
+          height: auto;
+          width: 356px;
+          margin-right: 8px; }
+      .home .home_wrapper section.faq h2 {
+        color: #7de3cd; }
+      .home .home_wrapper section.faq div {
+        margin-bottom: 24px; }
+        .home .home_wrapper section.faq div h3 {
+          font-size: 16px;
+          line-height: 22px;
+          letter-spacing: -0.4px;
+          font-weight: 700; }
+      .home .home_wrapper section.contact h2 {
+        color: #b69dcf; }
+      .home .home_wrapper section.contact p {
+        margin-bottom: 16px; }
+        .home .home_wrapper section.contact p:nth-child(3) {
+          margin-bottom: 24px; }
+      .home .home_wrapper section.contact .sns {
+        display: flex;
+        justify-content: space-between;
+        width: 168px; }
+
+.not_found {
+  padding: 100px 0; }
+  .not_found .not_found_wrapper {
+    max-width: 1194px;
+    margin: 0 auto;
+    text-align: center; }
 
 /*# sourceMappingURL=main.css.map */

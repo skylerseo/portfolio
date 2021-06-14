@@ -3,17 +3,46 @@ import '../../../main.css'
 
 const Skills = (props) => {
   return (
-    <section>
+    <section className='skills'>
       <h2>Skills</h2>
-      <p>기술 & 특기</p>
-      <p>시맨틱하게 마크업하기, 꼼꼼하게 스타일 먹이기, 집요하게 기능구현하기, 분위기메이커, 야근하기</p>
-      <p>Tools</p>
-      <p>Mac & Window, Visual Studio Code, Adobe Photoshop, Figma, Postman, Notion</p>
-      <p>Etc</p>
-      <p>
-        Git, PostCSS, 데이터베이스 기본, 일본어 원어민급, 나쁘지 않은 웹디자인 실력, 심상치 않은 그림실력, 스펀지 같은
-        피드백 흡수와 침투하는 커뮤니케이션
-      </p>
+      <div>
+        <h3>프론트 엔드</h3>
+        <p>HTML5, CSS3, JavaScript(ES6~), Sass, React</p>
+      </div>
+
+      <div>
+        <h3>기획, 소통</h3>
+        <p>
+          UI&UX를 고려한 웹설계, 원활한 소통,
+          <br />
+          귀여운 영어 실력, 원어민급 일본어 실력
+        </p>
+      </div>
+
+      <div>
+        <h3>그래픽</h3>
+        <p>포토샵 고수, 그림 잘 그림, 웹디자인 가능, 색감 좋음</p>
+      </div>
+
+      <div>
+        <h3>Tools</h3>
+        <p>
+          Mac & Window, Visual Studio Code,
+          <br />
+          Adobe Photoshop, Figma, Postman, Notion
+        </p>
+      </div>
+
+      <div>
+        <h3>Etc</h3>
+        <p>
+          Git, PostCSS, 데이터베이스 기본, 일본어 원어민급,
+          <br />
+          나쁘지 않은 웹디자인 실력, 심상치 않은 그림실력,
+          <br />
+          스펀지 같은 피드백 흡수와 침투하는 커뮤니케이션
+        </p>
+      </div>
     </section>
   )
 }
