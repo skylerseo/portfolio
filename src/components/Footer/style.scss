@@ -7,3 +7,39 @@
     text-align: center;
   }
 }
+
+// 태블릿(big) 대응
+@media (max-width: 1024px) {
+  .footer {
+    .footer_wrapper {
+      margin: 0 64px;
+    }
+  }
+}
+
+// 태블릿 대응
+@media (max-width: 768px) {
+  .footer {
+    .footer_wrapper {
+      margin: 0 24px;
+    }
+  }
+}
+
+// 모바일 대응
+@media (max-width: 428px) {
+  .footer {
+    .footer_wrapper {
+      margin: 0 20px;
+    }
+  }
+}
+
+// 모바일(small) 대응
+@media (max-width: 320px) {
+  .footer {
+    .footer_wrapper {
+      margin: 0 10px;
+    }
+  }
+}
