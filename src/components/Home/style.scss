@@ -141,9 +141,6 @@
         }
         div {
           margin-bottom: 24px;
-          h3 {
-            @include typography-title-subhead-3;
-          }
           p {
             color: $gray-1;
           }
