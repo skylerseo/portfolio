@@ -22,6 +22,11 @@
         h2 {
           color: $brand-red;
         }
+        img {
+          width: 256px;
+          border-radius: 8px;
+          margin-bottom: 16px;
+        }
       }
       &.about {
         h2 {
@@ -52,22 +57,73 @@
         h2 {
           color: $brand-blue;
         }
-        div {
+        .section {
           margin-bottom: 24px;
+          .logos {
+            display: flex;
+            margin-bottom: 8px;
+            img {
+              width: auto;
+              height: 64px;
+              margin-right: 16px;
+              &:last-child {
+                margin-right: 0;
+              }
+            }
+          }
+          p {
+            color: $gray-1;
+          }
         }
       }
       &.work {
         h2 {
           color: $brand-yellow;
         }
-        .bundle {
+        .work_buttons {
           display: flex;
-          align-items: center;
-          margin-bottom: 24px;
-          img {
-            height: auto;
-            width: 356px;
-            margin-right: 8px;
+          margin-bottom: 16px;
+          button {
+            @include typography-body-3;
+            font-weight: $font-weight-semi-bold;
+            background-color: $brand-yellow;
+            color: $black;
+            margin-right: 16px;
+            padding: 12px 16px;
+            border-radius: 8px;
+            &:last-child {
+              margin-right: 0;
+            }
+          }
+        }
+        .bundle_wrapper {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          column-gap: 16px;
+          row-gap: 16px;
+          .bundle {
+            display: flex;
+            flex-direction: column;
+            img {
+              height: auto;
+              width: 100%;
+              margin-bottom: 8px;
+            }
+            a {
+              @include typography-body-2;
+              font-weight: $font-weight-semi-bold;
+              background-color: $brand-yellow;
+              color: $black;
+              padding: 2px 6px;
+              border-radius: 4px;
+            }
+            .work_tag {
+              color: $gray-1;
+              margin: 4px 0;
+            }
+            .work_description {
+              @include typography-body-3;
+            }
           }
         }
       }
@@ -79,6 +135,9 @@
           margin-bottom: 24px;
           h3 {
             @include typography-title-subhead-3;
+          }
+          p {
+            color: $gray-1;
           }
         }
       }

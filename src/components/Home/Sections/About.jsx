@@ -31,7 +31,7 @@ const About = (props) => {
           <div>
             <p>프론트엔드 웹개발자</p>
             <p>(주)퓨어블랙(PURE BLACK)</p>
-            <p>2021.04 ~ 재직중</p>
+            <p>2021.04 ~ 2021.08</p>
           </div>
         </div>
         <div className='work'>

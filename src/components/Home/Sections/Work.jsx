@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState, useContext } from 'react'
 import '../../../main.css'
 import codegreen from '../../../assets/image/work/codegreen.png'
 import etude from '../../../assets/image/work/etude-promotion-redesign-macbook.png'
@@ -6,59 +6,128 @@ import jbgd from '../../../assets/image/work/jbgd-macbook.png'
 import phantom from '../../../assets/image/work/phantom-redesign-macbook-and-iphone.png'
 import jo_malon from '../../../assets/image/work/jo-malone-home-redesign-macbook.png'
 import sulbing from '../../../assets/image/work/sulbing-promotion-redesign-macbook.png'
+import fiive from '../../../assets/image/work/fiive.jpg'
 
 const Work = (props) => {
+  const [frontEnd, setFrontEnd] = useState(true)
+  const showFrontEndHandler = () => {
+    setFrontEnd(true)
+    setWebDesign(false)
+    setBackEnd(false)
+  }
+  const [webDesign, setWebDesign] = useState(false)
+  const showWebDesignHandler = () => {
+    setWebDesign(true)
+    setFrontEnd(false)
+    setBackEnd(false)
+  }
+  const [backEnd, setBackEnd] = useState(false)
+  const showBackEndHandler = () => {
+    setBackEnd(true)
+    setFrontEnd(false)
+    setWebDesign(false)
+  }
+
   return (
     <section className='work'>
       <h2>Work</h2>
-      <div className='bundle'>
-        <img src={codegreen} alt='' />
-        <div>
-          https://codegreen.io/
-          <p>React - 반응형 웹 유지보수</p>
-          <p>약 4개월간 코드그린 반응형 사이트 프론트단 유지보수 및 기능구현을 담당하였습니다.</p>
-        </div>
+      <div className='work_buttons'>
+        <button type='button' onClick={showFrontEndHandler}>
+          Front-End
+        </button>
+        <button type='button' onClick={showWebDesignHandler}>
+          Web-Design
+        </button>
+        <button type='button' onClick={showBackEndHandler}>
+          Back-End
+        </button>
       </div>
-      <div className='bundle'>
-        <img src={phantom} alt='' />
-        <div>
-          https://skylerseo.github.io/posts/rolls-royce-phantom-detail-site-redesign/
-          <p>웹디자인</p>
-          <p>rolls-royce phantom redesign</p>
+      {frontEnd && (
+        <div className='bundle_wrapper'>
+          <div className='bundle'>
+            <img src={fiive} alt='' />
+            <div>
+              <a href='https://fiive.me/' target='_blank'>
+                ⇢ Link
+              </a>
+              <p className='work_tag'>React - 반응형 웹 프론트</p>
+              <p className='work_description'>
+                피이브 웹사이트 기획 단계부터 참여 및 프론트단 기능구현을 담당하였습니다.
+              </p>
+            </div>
+          </div>
+          <div className='bundle'>
+            <img src={codegreen} alt='' />
+            <div>
+              <a href='https://codegreen.io/' target='_blank'>
+                ⇢ Link
+              </a>
+              <p className='work_tag'>React - 반응형 웹 프론트</p>
+              <p className='work_description'>코드그린 웹사이트 프론트단 기능구현 및 유지보수를 담당하였습니다.</p>
+            </div>
+          </div>
         </div>
-      </div>
-      <div className='bundle'>
-        <img src={jo_malon} alt='' />
-        <div>
-          https://skylerseo.github.io/posts/jo-malone-home-page-redesign/
-          <p>웹디자인</p>
-          <p>Jo Malone 'home page' and 'about page' redesign</p>
+      )}
+      {webDesign && (
+        <div className='bundle_wrapper'>
+          <div className='bundle'>
+            <img src={phantom} alt='' />
+            <div>
+              <a href='https://skylerseo.github.io/posts/rolls-royce-phantom-detail-site-redesign/' target='_blank'>
+                ⇢ Link
+              </a>
+              <p className='work_tag'>웹디자인</p>
+              <p className='work_description'>rolls-royce phantom redesign</p>
+            </div>
+          </div>
+          <div className='bundle'>
+            <img src={jo_malon} alt='' />
+            <div>
+              <a href='https://skylerseo.github.io/posts/jo-malone-home-page-redesign/' target='_blank'>
+                ⇢ Link
+              </a>
+              <p className='work_tag'>웹디자인</p>
+              <p className='work_description'>Jo Malone 'home page' and 'about page' redesign</p>
+            </div>
+          </div>
+          <div className='bundle'>
+            <img src={etude} alt='' />
+            <div>
+              <a href='https://skylerseo.github.io/posts/etude-house-redesign/' target='_blank'>
+                ⇢ Link
+              </a>
+              <p className='work_tag'>상세페이지 디자인</p>
+              <p className='work_description'>에뛰드 프로모션 디자인</p>
+            </div>
+          </div>
+          <div className='bundle'>
+            <img src={sulbing} alt='' />
+            <div>
+              <a href='https://skylerseo.github.io/posts/sulbing-promotion-redesign/' target='_blank'>
+                ⇢ Link
+              </a>
+              <p className='work_tag'>상세페이지 디자인</p>
+              <p className='work_description'>설빙 프로모션 디자인</p>
+            </div>
+          </div>
         </div>
-      </div>
-      <div className='bundle'>
-        <img src={etude} alt='' />
-        <div>
-          https://skylerseo.github.io/posts/etude-house-redesign/
-          <p>상세페이지 디자인</p>
-          <p>에뛰드 프로모션 디자인</p>
+      )}
+      {backEnd && (
+        <div className='bundle_wrapper'>
+          <div className='bundle'>
+            <img src={jbgd} alt='' />
+            <div>
+              <a href='https://github.com/skylerseo/Desert-Shoppingmall-Team.JBGD' target='_blank'>
+                ⇢ Link
+              </a>
+              <p className='work_tag'>Java 팀 프로젝트</p>
+              <p className='work_description'>
+                Java 기반 하이브리드 웹앱, 디저트 쇼핑몰 '디저트에 자빠지다'입니다. Team.JBGD
+              </p>
+            </div>
+          </div>
         </div>
-      </div>
-      <div className='bundle'>
-        <img src={sulbing} alt='' />
-        <div>
-          https://skylerseo.github.io/posts/sulbing-promotion-redesign/
-          <p>상세페이지 디자인</p>
-          <p>설빙 프로모션 디자인</p>
-        </div>
-      </div>
-      <div className='bundle'>
-        <img src={jbgd} alt='' />
-        <div>
-          https://github.com/skylerseo/Desert-Shoppingmall-Team.JBGD
-          <p>Java 팀 프로젝트</p>
-          <p>Java 기반 하이브리드 웹앱, 디저트 쇼핑몰 '디저트에 자빠지다'입니다. Team.JBGD</p>
-        </div>
-      </div>
+      )}
     </section>
   )
 }
