@@ -477,15 +477,17 @@ ol {
     .navbar .navbar_wrapper .menu_mobile {
       right: 10px; } }
 
-.footer .footer_wrapper {
-  font-size: 12px;
-  line-height: 18px;
-  letter-spacing: -0.6px;
-  font-weight: 400;
-  max-width: 1194px;
-  height: 56px;
-  margin: 0 auto;
-  text-align: center; }
+.footer {
+  color: #aaa; }
+  .footer .footer_wrapper {
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: -0.6px;
+    font-weight: 400;
+    max-width: 1194px;
+    height: 56px;
+    margin: 0 auto;
+    text-align: center; }
 
 @media (max-width: 1024px) {
   .footer .footer_wrapper {
@@ -512,6 +514,7 @@ ol {
     .home .home_wrapper section {
       margin-bottom: 80px; }
       .home .home_wrapper section h2 {
+        color: #a81e2a;
         font-size: 32px;
         line-height: 44px;
         letter-spacing: -0.6px;
@@ -528,14 +531,10 @@ ol {
         line-height: 22px;
         letter-spacing: -0.6px;
         font-weight: 400; }
-      .home .home_wrapper section.home_section h2 {
-        color: #a81e2a; }
       .home .home_wrapper section.home_section img {
         width: 256px;
         border-radius: 8px;
         margin-bottom: 16px; }
-      .home .home_wrapper section.about h2 {
-        color: #f5bbda; }
       .home .home_wrapper section.about .bundle {
         margin-bottom: 36px; }
         .home .home_wrapper section.about .bundle .work,
@@ -553,8 +552,6 @@ ol {
           letter-spacing: -0.6px;
           font-weight: 400;
           color: #aaa; }
-      .home .home_wrapper section.skills h2 {
-        color: #00b5d6; }
       .home .home_wrapper section.skills .bundle {
         margin-bottom: 24px; }
         .home .home_wrapper section.skills .bundle .logos {
@@ -568,8 +565,6 @@ ol {
               margin-right: 0; }
         .home .home_wrapper section.skills .bundle p {
           color: #aaa; }
-      .home .home_wrapper section.work h2 {
-        color: #fae011; }
       .home .home_wrapper section.work .work_buttons {
         display: flex;
         margin-bottom: 16px; }
@@ -579,15 +574,16 @@ ol {
           letter-spacing: -0.6px;
           font-weight: 400;
           font-weight: 500;
-          background-color: #fae011;
-          color: #111;
+          background-color: #a81e2a;
+          color: #fff;
           margin-right: 16px;
           padding: 12px 16px;
           border-radius: 8px; }
           .home .home_wrapper section.work .work_buttons button:last-child {
             margin-right: 0; }
           .home .home_wrapper section.work .work_buttons button:hover {
-            background-color: #fffbd7;
+            background-color: #f5bbda;
+            color: #111;
             transition: 0.4s; }
       .home .home_wrapper section.work .bundle_wrapper {
         display: grid;
@@ -607,12 +603,13 @@ ol {
             letter-spacing: -0.6px;
             font-weight: 400;
             font-weight: 500;
-            background-color: #fae011;
-            color: #111;
+            background-color: #a81e2a;
+            color: #fff;
             padding: 2px 6px;
             border-radius: 4px; }
             .home .home_wrapper section.work .bundle_wrapper .bundle a:hover {
-              background-color: #fffbd7;
+              background-color: #f5bbda;
+              color: #111;
               transition: 0.4s; }
           .home .home_wrapper section.work .bundle_wrapper .bundle .work_tag {
             color: #aaa;
@@ -622,17 +619,14 @@ ol {
             line-height: 24px;
             letter-spacing: -0.6px;
             font-weight: 400; }
-      .home .home_wrapper section.faq h2 {
-        color: #7de3cd; }
       .home .home_wrapper section.faq div {
         margin-bottom: 24px; }
         .home .home_wrapper section.faq div p {
           color: #aaa; }
-      .home .home_wrapper section.contact h2 {
-        color: #b69dcf; }
       .home .home_wrapper section.contact p {
         margin-bottom: 16px; }
         .home .home_wrapper section.contact p:nth-child(3) {
+          color: #aaa;
           margin-bottom: 24px; }
       .home .home_wrapper section.contact .sns {
         display: flex;
