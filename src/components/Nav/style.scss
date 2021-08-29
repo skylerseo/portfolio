@@ -6,12 +6,14 @@
     max-width: 1194px;
     height: 56px;
     margin: 0 auto;
-    img {
-      width: auto;
-      height: 38px;
-      cursor: pointer;
+    .home_link {
+      img {
+        width: auto;
+        height: 38px;
+        cursor: pointer;
+      }
     }
-    ul {
+    .navbar_menu {
       display: flex;
       li {
         padding: 0 30px;
@@ -22,6 +24,12 @@
           transition: ease-in-out 300ms;
         }
       }
+    }
+    .menu_mobile {
+      display: none;
+    }
+    .menu_drawer {
+      display: none;
     }
   }
 }
@@ -47,8 +55,52 @@
 // 모바일 대응
 @media (max-width: 428px) {
   .navbar {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    background-color: $black;
     .navbar_wrapper {
+      position: relative;
       margin: 0 20px;
+      .home_link {
+        position: fixed;
+        top: 9px;
+      }
+      .navbar_menu {
+        display: none;
+      }
+      .menu_mobile {
+        position: fixed;
+        top: 10px;
+        right: 20px;
+        display: block;
+        width: 36px;
+        height: 36px;
+        z-index: 300;
+        img {
+          width: 36px;
+          height: 36px;
+        }
+      }
+      .menu_drawer {
+        display: block;
+        position: fixed;
+        right: -100vw;
+        top: 56px;
+        height: 100vh;
+        width: 264px;
+        list-style: none;
+        z-index: 200;
+        li {
+          padding: 16px;
+        }
+        &.active {
+          right: 0;
+          background: $black;
+          opacity: 100;
+          // box-shadow: -15em 0 rgba(0, 0, 0, 0.4);
+        }
+      }
     }
   }
 }
@@ -58,6 +110,9 @@
   .navbar {
     .navbar_wrapper {
       margin: 0 10px;
+      .menu_mobile {
+        right: 10px;
+      }
     }
   }
 }

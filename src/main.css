@@ -401,22 +401,26 @@ ol {
   max-width: 1194px;
   height: 56px;
   margin: 0 auto; }
-  .navbar .navbar_wrapper img {
+  .navbar .navbar_wrapper .home_link img {
     width: auto;
     height: 38px;
     cursor: pointer; }
-  .navbar .navbar_wrapper ul {
+  .navbar .navbar_wrapper .navbar_menu {
     display: flex; }
-    .navbar .navbar_wrapper ul li {
+    .navbar .navbar_wrapper .navbar_menu li {
       padding: 0 30px;
       cursor: pointer;
       font-size: 16px;
       line-height: 22px;
       letter-spacing: -0.4px;
       font-weight: 700; }
-      .navbar .navbar_wrapper ul li:hover {
+      .navbar .navbar_wrapper .navbar_menu li:hover {
         color: #a81e2a;
         transition: ease-in-out 300ms; }
+  .navbar .navbar_wrapper .menu_mobile {
+    display: none; }
+  .navbar .navbar_wrapper .menu_drawer {
+    display: none; }
 
 @media (max-width: 1024px) {
   .navbar .navbar_wrapper {
@@ -427,12 +431,51 @@ ol {
     margin: 0 24px; } }
 
 @media (max-width: 428px) {
-  .navbar .navbar_wrapper {
-    margin: 0 20px; } }
+  .navbar {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    background-color: #111; }
+    .navbar .navbar_wrapper {
+      position: relative;
+      margin: 0 20px; }
+      .navbar .navbar_wrapper .home_link {
+        position: fixed;
+        top: 9px; }
+      .navbar .navbar_wrapper .navbar_menu {
+        display: none; }
+      .navbar .navbar_wrapper .menu_mobile {
+        position: fixed;
+        top: 10px;
+        right: 20px;
+        display: block;
+        width: 36px;
+        height: 36px;
+        z-index: 300; }
+        .navbar .navbar_wrapper .menu_mobile img {
+          width: 36px;
+          height: 36px; }
+      .navbar .navbar_wrapper .menu_drawer {
+        display: block;
+        position: fixed;
+        right: -100vw;
+        top: 56px;
+        height: 100vh;
+        width: 264px;
+        list-style: none;
+        z-index: 200; }
+        .navbar .navbar_wrapper .menu_drawer li {
+          padding: 16px; }
+        .navbar .navbar_wrapper .menu_drawer.active {
+          right: 0;
+          background: #111;
+          opacity: 100; } }
 
 @media (max-width: 320px) {
   .navbar .navbar_wrapper {
-    margin: 0 10px; } }
+    margin: 0 10px; }
+    .navbar .navbar_wrapper .menu_mobile {
+      right: 10px; } }
 
 .footer .footer_wrapper {
   font-size: 12px;
