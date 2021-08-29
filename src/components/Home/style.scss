@@ -94,6 +94,10 @@
             &:last-child {
               margin-right: 0;
             }
+            &:hover {
+              background-color: #fffbd7;
+              transition: 0.4s;
+            }
           }
         }
         .bundle_wrapper {
@@ -116,6 +120,10 @@
               color: $black;
               padding: 2px 6px;
               border-radius: 4px;
+              &:hover {
+                background-color: #fffbd7;
+                transition: 0.4s;
+              }
             }
             .work_tag {
               color: $gray-1;
@@ -155,6 +163,12 @@
           display: flex;
           justify-content: space-between;
           width: 168px;
+          a {
+            &:hover {
+              transform: translate(10%, 0);
+              transition: 0.4s;
+            }
+          }
         }
       }
     }
