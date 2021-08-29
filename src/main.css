@@ -555,18 +555,18 @@ ol {
           color: #aaa; }
       .home .home_wrapper section.skills h2 {
         color: #00b5d6; }
-      .home .home_wrapper section.skills .section {
+      .home .home_wrapper section.skills .bundle {
         margin-bottom: 24px; }
-        .home .home_wrapper section.skills .section .logos {
+        .home .home_wrapper section.skills .bundle .logos {
           display: flex;
           margin-bottom: 8px; }
-          .home .home_wrapper section.skills .section .logos img {
+          .home .home_wrapper section.skills .bundle .logos img {
             width: auto;
             height: 64px;
             margin-right: 16px; }
-            .home .home_wrapper section.skills .section .logos img:last-child {
+            .home .home_wrapper section.skills .bundle .logos img:last-child {
               margin-right: 0; }
-        .home .home_wrapper section.skills .section p {
+        .home .home_wrapper section.skills .bundle p {
           color: #aaa; }
       .home .home_wrapper section.work h2 {
         color: #fae011; }
@@ -677,15 +677,31 @@ ol {
           line-height: 18px;
           letter-spacing: -0.6px;
           font-weight: 400; }
-        .home .home_wrapper section.skills .section .logos img {
+        .home .home_wrapper section.skills .bundle .logos img {
           height: 42px; }
         .home .home_wrapper section.work .bundle_wrapper {
           grid-template-columns: 1fr; }
+          .home .home_wrapper section.work .bundle_wrapper .bundle img {
+            margin-bottom: 16px; }
+          .home .home_wrapper section.work .bundle_wrapper .bundle .work_tag {
+            margin: 16px 0 8px 0; }
           .home .home_wrapper section.work .bundle_wrapper .bundle .work_description {
             font-size: 14px;
             line-height: 22px;
             letter-spacing: -0.6px;
-            font-weight: 400; } }
+            font-weight: 400; }
+          .home .home_wrapper section.work .bundle_wrapper .bundle a {
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: -0.6px;
+            font-weight: 400;
+            padding: 8px 12px;
+            border-radius: 8px; }
+        .home .home_wrapper section.faq .bundle h3 {
+          font-size: 14px;
+          line-height: 20px;
+          letter-spacing: -0.2px;
+          font-weight: 700; } }
 
 @media (max-width: 320px) {
   .home .home_wrapper {

@@ -9,7 +9,7 @@ const Skills = (props) => {
   return (
     <section className='skills'>
       <h2>Skills</h2>
-      <div className='section'>
+      <div className='bundle'>
         <h3>프론트 엔드</h3>
         <div className='logos'>
           <img src={html_css_logo} alt='html, css' />
@@ -20,7 +20,7 @@ const Skills = (props) => {
         <p>HTML5, CSS3, JavaScript(ES6~), Sass, React</p>
       </div>
 
-      <div className='section'>
+      <div className='bundle'>
         <h3>기획, 소통</h3>
         <p>
           UI&UX를 고려한 웹설계, 원활한 소통,
@@ -29,12 +29,12 @@ const Skills = (props) => {
         </p>
       </div>
 
-      <div className='section'>
+      <div className='bundle'>
         <h3>그래픽</h3>
         <p>포토샵 고수, 그림 잘 그림, 웹디자인 가능, 색감 좋음</p>
       </div>
 
-      <div className='section'>
+      <div className='bundle'>
         <h3>Tools</h3>
         <p>
           Mac & Window, Visual Studio Code,
@@ -43,7 +43,7 @@ const Skills = (props) => {
         </p>
       </div>
 
-      <div className='section'>
+      <div className='bundle'>
         <h3>Etc</h3>
         <p>
           Git, PostCSS, 데이터베이스 기본,

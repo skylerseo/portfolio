@@ -5,7 +5,7 @@ const Faq = (props) => {
   return (
     <section className='faq'>
       <h2>FAQ</h2>
-      <div>
+      <div className='bundle'>
         <h3>1. 어떤 회사를 찾고 있나요?</h3>
         <p>
           함께 성장해나갈 수 있는, 서로에게 좋은 영향을 줄 수 있는 회사를 찾고 있습니다.
@@ -13,7 +13,7 @@ const Faq = (props) => {
           의사소통을 중요시 여겨 서로 귀기울여듣고 발전해나가는 관계가 되었으면 좋겠습니다.
         </p>
       </div>
-      <div>
+      <div className='bundle'>
         <h3>2. 업무 관련 경험이 있나요?</h3>
         <p>
           약 1년간 리액트를 활용한 프론트엔드 실무를 담당하였습니다.
@@ -22,7 +22,7 @@ const Faq = (props) => {
           수행하였습니다.
         </p>
       </div>
-      <div>
+      <div className='bundle'>
         <h3>3. 입사 후 포부?</h3>
         <p>
           저의 꼼꼼한 성격에 기인한 가독성 좋은 깔끔한 코드,
@@ -33,7 +33,7 @@ const Faq = (props) => {
           배움에는 끝이 없으며, 누구든지 항상 서로에게 배울 것이 있다고 생각합니다.
         </p>
       </div>
-      <div>
+      <div className='bundle'>
         <h3>4. 언제부터 지금의 직무에 관심을 갖게 되었나요?</h3>
         <p>
           늘 상호작용을 중요시해왔습니다.
@@ -47,7 +47,7 @@ const Faq = (props) => {
           졸업 후 프로그래밍에 대하여 더 알아보게 되었고 웹개발에 관심을 가져 따로 공부하게 되었습니다.
         </p>
       </div>
-      <div>
+      <div className='bundle'>
         <h3>5. 성격의 장단점이 있나요?</h3>
         <p>
           제 장점은 후진 없이 직진하는 적극적인 성격입니다.

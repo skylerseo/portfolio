@@ -57,7 +57,7 @@
         h2 {
           color: $brand-blue;
         }
-        .section {
+        .bundle {
           margin-bottom: 24px;
           .logos {
             display: flex;
@@ -211,7 +211,7 @@
           @include typography-body-1;
         }
         &.skills {
-          .section {
+          .bundle {
             .logos {
               img {
                 height: 42px;
@@ -223,9 +223,27 @@
           .bundle_wrapper {
             grid-template-columns: 1fr;
             .bundle {
+              img {
+                margin-bottom: 16px;
+              }
+              .work_tag {
+                margin: 16px 0 8px 0;
+              }
               .work_description {
                 @include typography-body-2;
               }
+              a {
+                @include typography-body-3;
+                padding: 8px 12px;
+                border-radius: 8px;
+              }
+            }
+          }
+        }
+        &.faq {
+          .bundle {
+            h3 {
+              @include typography-title-subhead-2;
             }
           }
         }
