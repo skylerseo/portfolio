@@ -45,7 +45,9 @@ const Work = (props) => {
       {frontEnd && (
         <div className='bundle_wrapper'>
           <div className='bundle'>
-            <img src={fiive} alt='' />
+            <a href='https://fiive.me/' target='_blank' rel='noreferrer'>
+              <img src={fiive} alt='' />
+            </a>
             <div>
               <a href='https://fiive.me/' target='_blank' rel='noreferrer'>
                 ⇢ Link
@@ -57,7 +59,9 @@ const Work = (props) => {
             </div>
           </div>
           <div className='bundle'>
-            <img src={codegreen} alt='' />
+            <a href='https://codegreen.io/' target='_blank' rel='noreferrer'>
+              <img src={codegreen} alt='' />
+            </a>
             <div>
               <a href='https://codegreen.io/' target='_blank' rel='noreferrer'>
                 ⇢ Link
@@ -71,7 +75,13 @@ const Work = (props) => {
       {webDesign && (
         <div className='bundle_wrapper'>
           <div className='bundle'>
-            <img src={phantom} alt='' />
+            <a
+              href='https://skylerseo.github.io/posts/rolls-royce-phantom-detail-site-redesign/'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <img src={phantom} alt='' />
+            </a>
             <div>
               <a
                 href='https://skylerseo.github.io/posts/rolls-royce-phantom-detail-site-redesign/'
@@ -81,11 +91,13 @@ const Work = (props) => {
                 ⇢ Link
               </a>
               <p className='work_tag'>웹디자인</p>
-              <p className='work_description'>rolls-royce phantom redesign</p>
+              <p className='work_description'>롤스로이스 팬텀 re디자인</p>
             </div>
           </div>
           <div className='bundle'>
-            <img src={jo_malon} alt='' />
+            <a href='https://skylerseo.github.io/posts/jo-malone-home-page-redesign/' target='_blank' rel='noreferrer'>
+              <img src={jo_malon} alt='' />
+            </a>
             <div>
               <a
                 href='https://skylerseo.github.io/posts/jo-malone-home-page-redesign/'
@@ -95,11 +107,14 @@ const Work = (props) => {
                 ⇢ Link
               </a>
               <p className='work_tag'>웹디자인</p>
-              <p className='work_description'>Jo Malone 'home page' and 'about page' redesign</p>
+              <p className='work_description'>조말론 'home page', 'about page' re디자인</p>
             </div>
           </div>
           <div className='bundle'>
-            <img src={etude} alt='' />
+            <a href='https://skylerseo.github.io/posts/etude-house-redesign/' target='_blank' rel='noreferrer'>
+              <img src={etude} alt='' />
+            </a>
+
             <div>
               <a href='https://skylerseo.github.io/posts/etude-house-redesign/' target='_blank' rel='noreferrer'>
                 ⇢ Link
@@ -109,7 +124,9 @@ const Work = (props) => {
             </div>
           </div>
           <div className='bundle'>
-            <img src={sulbing} alt='' />
+            <a href='https://skylerseo.github.io/posts/sulbing-promotion-redesign/' target='_blank' rel='noreferrer'>
+              <img src={sulbing} alt='' />
+            </a>
             <div>
               <a href='https://skylerseo.github.io/posts/sulbing-promotion-redesign/' target='_blank' rel='noreferrer'>
                 ⇢ Link
@@ -123,7 +140,9 @@ const Work = (props) => {
       {backEnd && (
         <div className='bundle_wrapper'>
           <div className='bundle'>
-            <img src={jbgd} alt='' />
+            <a href='https://github.com/skylerseo/Desert-Shoppingmall-Team.JBGD' target='_blank' rel='noreferrer'>
+              <img src={jbgd} alt='' />
+            </a>
             <div>
               <a href='https://github.com/skylerseo/Desert-Shoppingmall-Team.JBGD' target='_blank' rel='noreferrer'>
                 ⇢ Link
