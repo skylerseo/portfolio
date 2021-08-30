@@ -215,7 +215,7 @@
               .work_description {
                 @include typography-body-2;
               }
-              a {
+              .work_link {
                 @include typography-body-3;
                 padding: 8px 12px;
                 border-radius: 8px;
