@@ -49,7 +49,7 @@ const Work = (props) => {
               <img src={fiive} alt='' />
             </a>
             <div>
-              <a href='https://fiive.me/' target='_blank' rel='noreferrer'>
+              <a href='https://fiive.me/' className='work_link' target='_blank' rel='noreferrer'>
                 ⇢ Link
               </a>
               <p className='work_tag'>React - 반응형 웹 프론트</p>
@@ -63,7 +63,7 @@ const Work = (props) => {
               <img src={codegreen} alt='' />
             </a>
             <div>
-              <a href='https://codegreen.io/' target='_blank' rel='noreferrer'>
+              <a href='https://codegreen.io/' className='work_link' target='_blank' rel='noreferrer'>
                 ⇢ Link
               </a>
               <p className='work_tag'>React - 반응형 웹 프론트</p>
@@ -85,6 +85,7 @@ const Work = (props) => {
             <div>
               <a
                 href='https://skylerseo.github.io/posts/rolls-royce-phantom-detail-site-redesign/'
+                className='work_link'
                 target='_blank'
                 rel='noreferrer'
               >
@@ -101,6 +102,7 @@ const Work = (props) => {
             <div>
               <a
                 href='https://skylerseo.github.io/posts/jo-malone-home-page-redesign/'
+                className='work_link'
                 target='_blank'
                 rel='noreferrer'
               >
@@ -115,7 +117,12 @@ const Work = (props) => {
               <img src={etude} alt='' />
             </a>
             <div>
-              <a href='https://skylerseo.github.io/posts/etude-house-redesign/' target='_blank' rel='noreferrer'>
+              <a
+                href='https://skylerseo.github.io/posts/etude-house-redesign/'
+                className='work_link'
+                target='_blank'
+                rel='noreferrer'
+              >
                 ⇢ Link
               </a>
               <p className='work_tag'>상세페이지 디자인</p>
@@ -127,7 +134,12 @@ const Work = (props) => {
               <img src={sulbing} alt='' />
             </a>
             <div>
-              <a href='https://skylerseo.github.io/posts/sulbing-promotion-redesign/' target='_blank' rel='noreferrer'>
+              <a
+                href='https://skylerseo.github.io/posts/sulbing-promotion-redesign/'
+                className='work_link'
+                target='_blank'
+                rel='noreferrer'
+              >
                 ⇢ Link
               </a>
               <p className='work_tag'>상세페이지 디자인</p>
@@ -143,7 +155,12 @@ const Work = (props) => {
               <img src={jbgd} alt='' />
             </a>
             <div>
-              <a href='https://github.com/skylerseo/Desert-Shoppingmall-Team.JBGD' target='_blank' rel='noreferrer'>
+              <a
+                href='https://github.com/skylerseo/Desert-Shoppingmall-Team.JBGD'
+                className='work_link'
+                target='_blank'
+                rel='noreferrer'
+              >
                 ⇢ Link
               </a>
               <p className='work_tag'>Java 팀 프로젝트</p>
