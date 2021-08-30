@@ -114,7 +114,6 @@ const Work = (props) => {
             <a href='https://skylerseo.github.io/posts/etude-house-redesign/' target='_blank' rel='noreferrer'>
               <img src={etude} alt='' />
             </a>
-
             <div>
               <a href='https://skylerseo.github.io/posts/etude-house-redesign/' target='_blank' rel='noreferrer'>
                 ⇢ Link

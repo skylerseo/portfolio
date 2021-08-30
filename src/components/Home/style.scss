@@ -104,16 +104,18 @@
               margin-bottom: 8px;
             }
             a {
-              @include typography-body-2;
-              font-weight: $font-weight-semi-bold;
-              background-color: $brand-red;
-              color: $white;
-              padding: 2px 6px;
-              border-radius: 4px;
-              &:hover {
-                background-color: $brand-pink;
-                color: $black;
-                transition: 0.4s;
+              &:nth-child(2) {
+                @include typography-body-2;
+                font-weight: $font-weight-semi-bold;
+                background-color: $brand-red;
+                color: $white;
+                padding: 2px 6px;
+                border-radius: 4px;
+                &:hover {
+                  background-color: $brand-pink;
+                  color: $black;
+                  transition: 0.4s;
+                }
               }
             }
             .work_tag {
