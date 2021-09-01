@@ -59,6 +59,7 @@ const Faq = (props) => {
           주변인의 적절한 조언을 필요로 할 때가 있으며 이는 지속적인 피드백으로 조율하고 있습니다.
         </p>
       </div>
+      <hr className='devider' />
     </section>
   )
 }

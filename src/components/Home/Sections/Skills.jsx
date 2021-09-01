@@ -53,6 +53,8 @@ const Skills = (props) => {
           스펀지 같은 피드백 흡수와 침투하는 커뮤니케이션
         </p>
       </div>
+
+      <hr className='devider' />
     </section>
   )
 }

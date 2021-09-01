@@ -20,6 +20,7 @@ const Home = (props) => {
               구조적인 마크업과 웹접근성을 중요시하며, 깔끔하고 시적인 코드를 지향하는 감각적인 프론트엔드 주니어
               웹개발자
             </p>
+            <hr className='devider' />
           </section>
         </Element>
         <Element name='about'>

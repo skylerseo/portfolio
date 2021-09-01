@@ -171,6 +171,7 @@ const Work = (props) => {
           </div>
         </div>
       )}
+      <hr className='devider' />
     </section>
   )
 }

@@ -63,6 +63,8 @@ const About = (props) => {
           </div>
         </div>
       </div>
+
+      <hr className='devider' />
     </section>
   )
 }
