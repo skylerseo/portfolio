@@ -4,6 +4,7 @@ import smec from '../../../assets/image/about/smec.png'
 import thejoeun from '../../../assets/image/about/thejoeun.jpeg'
 import pureblack from '../../../assets/image/about/pureblack.webp'
 import codegreen from '../../../assets/image/about/codegreen.webp'
+import monsternplay from '../../../assets/image/about/monsternplay.jpg'
 
 const About = (props) => {
   return (
@@ -26,6 +27,14 @@ const About = (props) => {
 
       <div className='bundle'>
         <h3>Work Experience</h3>
+        <div className='work'>
+          <img src={monsternplay} alt='몬스터앤플레이' />
+          <div>
+            <p>프론트엔드 웹개발자 & 디자이너</p>
+            <p>(주)몬스터앤플레이</p>
+            <p>2021.10 ~ 현재 재직중</p>
+          </div>
+        </div>
         <div className='work'>
           <img src={pureblack} alt='퓨어블랙' />
           <div>

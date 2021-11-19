@@ -7,7 +7,7 @@ import phantom from '../../../assets/image/work/phantom-redesign-macbook-and-iph
 import jo_malon from '../../../assets/image/work/jo-malone-home-redesign-macbook.png'
 import sulbing from '../../../assets/image/work/sulbing-promotion-redesign-macbook.png'
 import fiive from '../../../assets/image/work/fiive.jpg'
-import monsternplay from '../../../assets/image/work/monsternplay_logo.jpg'
+import nplayshop from '../../../assets/image/work/nplayshop.jpg'
 
 const Work = (props) => {
   const [frontEnd, setFrontEnd] = useState(true)
@@ -47,7 +47,7 @@ const Work = (props) => {
         <div className='bundle_wrapper'>
           <div className='bundle'>
             <a href='https://www.nplayshop.com/' target='_blank' rel='noreferrer'>
-              <img src={monsternplay} alt='몬스터앤플레이' />
+              <img src={nplayshop} alt='엔플레이샵' />
             </a>
             <div>
               <a href='https://www.nplayshop.com/' className='work_link' target='_blank' rel='noreferrer'>
