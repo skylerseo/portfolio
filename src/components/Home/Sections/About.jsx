@@ -32,7 +32,7 @@ const About = (props) => {
           <div>
             <p>프론트엔드 웹개발자 & 디자이너</p>
             <p>(주)몬스터앤플레이</p>
-            <p>2021.10 ~ 현재 재직중</p>
+            <p>2021.10 ~ 재직중</p>
           </div>
         </div>
         <div className='work'>
