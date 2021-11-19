@@ -4,7 +4,7 @@ import smec from '../../../assets/image/about/smec.png'
 import thejoeun from '../../../assets/image/about/thejoeun.jpeg'
 import pureblack from '../../../assets/image/about/pureblack.webp'
 import codegreen from '../../../assets/image/about/codegreen.webp'
-import monsternplay from '../../../assets/image/about/monsternplay.jpg'
+import monsternplay from '../../../assets/image/about/monsternplay_logo.jpg'
 
 const About = (props) => {
   return (
