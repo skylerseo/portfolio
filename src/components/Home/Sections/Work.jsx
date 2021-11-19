@@ -7,6 +7,7 @@ import phantom from '../../../assets/image/work/phantom-redesign-macbook-and-iph
 import jo_malon from '../../../assets/image/work/jo-malone-home-redesign-macbook.png'
 import sulbing from '../../../assets/image/work/sulbing-promotion-redesign-macbook.png'
 import fiive from '../../../assets/image/work/fiive.jpg'
+import monsternplay from '../../../assets/image/work/monsternplay_logo.jpg'
 
 const Work = (props) => {
   const [frontEnd, setFrontEnd] = useState(true)
@@ -44,6 +45,18 @@ const Work = (props) => {
       </div>
       {frontEnd && (
         <div className='bundle_wrapper'>
+          <div className='bundle'>
+            <a href='https://www.nplayshop.com/' target='_blank' rel='noreferrer'>
+              <img src={monsternplay} alt='몬스터앤플레이' />
+            </a>
+            <div>
+              <a href='https://www.nplayshop.com/' className='work_link' target='_blank' rel='noreferrer'>
+                ⇢ Link
+              </a>
+              <p className='work_tag'>웹 프론트, 디자인</p>
+              <p className='work_description'>웹 프론트 유지보수 및 디자인을 담당</p>
+            </div>
+          </div>
           <div className='bundle'>
             <a href='https://fiive.me/' target='_blank' rel='noreferrer'>
               <img src={fiive} alt='' />
