@@ -31,7 +31,7 @@ const About = (props) => {
         <div className='work'>
           <img src={dpworld} alt='DP World' />
           <div>
-            <p>Front-End Web Developer</p>
+            <p>Developer</p>
             <p>DP World Management BV Korea Branch</p>
             <p>2022.07 ~ Present</p>
           </div>
