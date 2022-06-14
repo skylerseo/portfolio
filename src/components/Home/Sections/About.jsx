@@ -80,8 +80,8 @@ const About = (props) => {
         <div className='edu'>
           <img src={smec} alt='연세대학교 미래교육원 SMEC' />
           <div>
-            <p>게임그래픽 학과 졸업</p>
-            <p>연세대학교 미래교육원 SMEC</p>
+            <p>게임그래픽 학과 졸업 (Game Graphic Bachelor's degree)</p>
+            <p>연세대학교 미래교육원 SMEC (Institute of continuing education for the future SMEC)</p>
             <p>2013.03 ~ 2017.02</p>
           </div>
         </div>
