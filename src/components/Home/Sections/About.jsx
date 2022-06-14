@@ -5,6 +5,7 @@ import thejoeun from '../../../assets/image/about/thejoeun.jpeg'
 import pureblack from '../../../assets/image/about/pureblack.webp'
 import codegreen from '../../../assets/image/about/codegreen.webp'
 import monsternplay from '../../../assets/image/about/monsternplay_logo.jpg'
+import dpworld from '../../../assets/image/about/dpworld.png'
 
 const About = (props) => {
   return (
@@ -28,11 +29,19 @@ const About = (props) => {
       <div className='bundle'>
         <h3>Work Experience</h3>
         <div className='work'>
+          <img src={dpworld} alt='DP World' />
+          <div>
+            <p>Front-End Web Developer</p>
+            <p>DP World Management BV Korea Branch</p>
+            <p>2022.07 ~ Present</p>
+          </div>
+        </div>
+        <div className='work'>
           <img src={monsternplay} alt='몬스터앤플레이' />
           <div>
             <p>프론트엔드 웹개발자 & 디자이너</p>
-            <p>(주)몬스터앤플레이</p>
-            <p>2021.10 ~ 재직중</p>
+            <p>(주)몬스터앤플레이, (주)에스제이이앤엠</p>
+            <p>2021.10 ~ 2022.06</p>
           </div>
         </div>
         <div className='work'>
