@@ -13,6 +13,11 @@ const About = (props) => {
       <h2>About Me</h2>
       <div className='bundle'>
         <p>
+          I am a sensible front-end junior web developer who values structural markup and web accessibility and aims for
+          neat and poetic code.
+          <br />I also enjoy simply melting complex problems and turning them into beautiful, interactive designs.
+        </p>
+        <p>
           안녕하세요~ 감각적인 프론트엔드 웹개발자를 지향하는 서수연이라고 합니다.
           <br />
           저는 웹접근성과 시멘틱한 마크업을 중요하게 생각하고 있으며, 깨끗하고 시적인 코드를 지향하고 있습니다.

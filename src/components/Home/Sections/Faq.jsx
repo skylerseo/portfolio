@@ -6,6 +6,19 @@ const Faq = (props) => {
     <section className='faq'>
       <h2>FAQ</h2>
       <div className='bundle'>
+        <h3>Why did you choose to be a front-end developer?</h3>
+        <p>
+          Before starting my career, I majored in Game graphics.
+          <br />
+          While in university, I gained an interest in programming, so I spent an additional 2 more years studying
+          programming post graduation.
+          <br />
+          I personally think of myself as an enterprising minded worker, who seeks for self development and higher
+          achievement.
+          <br />I aspire to fulfill such value, so I decided to apply for your company.
+        </p>
+      </div>
+      <div className='bundle'>
         <h3>1. 어떤 회사를 찾고 있나요?</h3>
         <p>
           함께 성장해나갈 수 있는, 서로에게 좋은 영향을 줄 수 있는 회사를 찾고 있습니다.
